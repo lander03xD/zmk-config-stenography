@@ -18,3 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+
+include:
+  - board: seeeduino_xiao_nrf52840
+    shield: green_fluke_left
+  - board: seeeduino_xiao_nrf52840
+    shield: green_fluke_right
