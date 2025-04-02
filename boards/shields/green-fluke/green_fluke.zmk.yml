@@ -1,0 +1,11 @@
+file_format: "1"
+id: green_fluke
+name: Green_fluke
+type: shield
+url: https://github.com/lander03xD/zmk-config-stenography
+requires: [seeed nrf52840]
+features:
+  - keys
+siblings:
+  - green_fluke_left
+  - green_fluke_right
