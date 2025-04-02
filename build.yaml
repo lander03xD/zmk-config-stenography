@@ -20,7 +20,7 @@
 ---
 
 include:
-  - board: seeeduino_xiao_nrf52840
+  - board: seeeduino_xiao_ble
     shield: green_fluke_left
-  - board: seeeduino_xiao_nrf52840
+  - board: seeeduino_xiao_ble
     shield: green_fluke_right
