@@ -6,3 +6,12 @@ config SHIELD_GREEN_FLUKE_LEFT
 config SHIELD_GREEN_FLUKE_RIGHT
     def_bool $(shields_list_contains,green_fluke_right)
     
+config ZMK_HID_REPORT_TYPE_NKRO
+    bool "Enable NKRO (N-Key Rollover)"
+    default y
+
+config ZMK_HID_KEYBOARD_REPORT_SIZE
+    int "NKRO Report Size"
+    default 16
+    depends on ZMK_HID_REPORT_TYPE_NKRO
+
