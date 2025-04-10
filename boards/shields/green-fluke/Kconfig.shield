@@ -5,3 +5,4 @@ config SHIELD_GREEN_FLUKE_LEFT
 # No whitespace after the comma or in your part name!
 config SHIELD_GREEN_FLUKE_RIGHT
     def_bool $(shields_list_contains,green_fluke_right)
+    
